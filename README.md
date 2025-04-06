@@ -2,18 +2,21 @@
 
 ![End-to-end Pipeline](figures/project_description.png)
 
-Inspiration
-- “Red Light and Green Light” from Squid Game
-- Real-time multiplayer game using action recognition
+This project implements an AI-powered version of the popular "Red Light, Green Light" game (also known as "YoungHee" game), inspired by the one seen in the series "Squid Game." The system uses computer vision and machine learning to detect player movements and specific actions.
 
-Game Mechanism: How we modified
-- Players must perform a given action during the green light to earn points
-- Moving during the red light results in a score penalty
-- The player with the highest score at the end wins
+Overview
+Young-hee is an interactive game that combines real-time pose detection using MediaPipe with action recognition using deep learning. The game alternates between "Red Light" and "Green Light" phases:
 
-Technical Challenges
-- Real-time human action recognition and movement detection
+During Green Light: Players must perform a specific action (boxing, handclapping, handwaving, or walking) to earn points
+During Red Light: Players must remain still, or they'll be penalized
 
+Features
+
+Real-time pose detection using MediaPipe
+Custom-trained deep learning model (Bidirectional LSTM with attention mechanism) for human action recognition
+Three difficulty levels (easy, medium, hard)
+Visual feedback on player performance
+Score tracking system
 
 References
 - Zhou, Q., & Wu, H. (2018, October). NLP at IEST 2018: BiLSTM-attention and LSTM-attention via soft voting in emotion classification. In Proceedings of the 9th workshop on computational approaches to subjectivity, sentiment and social media analysis (pp. 189-194).
