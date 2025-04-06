@@ -5,7 +5,7 @@ This project implements an AI-powered version of the popular "Red Light, Green L
 ![End-to-end Pipeline](figures/project_description.png)
 
 ## Overview
-Young-hee is an interactive game that combines real-time pose detection using MediaPipe with action recognition using deep learning. The game alternates between "Red Light" and "Green Light" phases:
+YoungHee is an interactive game that combines real-time pose detection using MediaPipe with action recognition using deep learning. The game alternates between "Red Light" and "Green Light" phases:
 
 During Green Light: Players must perform a specific action (boxing, handclapping, handwaving, or walking) to earn points
 During Red Light: Players must remain still, or they'll be penalized
