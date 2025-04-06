@@ -13,3 +13,7 @@ Game Mechanism: How we modified
 
 Technical Challenges
 - Real-time human action recognition and movement detection
+
+
+References
+- Zhou, Q., & Wu, H. (2018, October). NLP at IEST 2018: BiLSTM-attention and LSTM-attention via soft voting in emotion classification. In Proceedings of the 9th workshop on computational approaches to subjectivity, sentiment and social media analysis (pp. 189-194).
