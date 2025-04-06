@@ -59,12 +59,18 @@ Game Controls
 4. During "Red Light," the player must remain still
 5. If movement is detected during "Red Light," points are deducted based on difficulty level
 
+
 ## Model Architecture
 The action recognition model uses a Bidirectional LSTM with attention mechanism:
 - Input: Sequence of normalized pose coordinates
 - Hidden layers: 2-layer BiLSTM with 128 hidden units
 - Attention layer: Helps focus on the most relevant frames
 - Output: Classification into one of the four action classes
+
+
+## Example of implementation
+![Example of implementation on new data](figures/Examples.png)
+
 
 ## References
 - Kang, S. M., & Wildes, R. P. (2016). Review of action recognition and detection methods. arXiv preprint arXiv:1610.06906. https://www.csc.kth.se/cvap/actions/
