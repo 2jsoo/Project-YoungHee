@@ -18,14 +18,14 @@ Visual feedback on player performance
 Score tracking system
 
 ## Requirements
-Python 3.12
-PyTorch
-OpenCV
-MediaPipe
-NumPy
-Matplotlib
-tqdm
-scikit-learn
+- Python 3.12
+- PyTorch
+- OpenCV
+- MediaPipe
+- NumPy
+- Matplotlib
+- tqdm
+- scikit-learn
 
 ## Usage
 The game has three main components: data preparation, model training, and gameplay.
